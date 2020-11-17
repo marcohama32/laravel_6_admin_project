@@ -1,3 +1,7 @@
+//criando tabela de base de dados
 php artisan make:migration create_admission_table --create=admissions
 php artisan migrate
 php artisan migrate:fresh
+
+//criando modelos
+php artisan infyom:scaffold Classes --fromTable --tableName=classes
