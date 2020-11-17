@@ -5,3 +5,11 @@ php artisan migrate:fresh
 
 //criando modelos
 php artisan infyom:scaffold Classes --fromTable --tableName=classes
+
+//carregando o project
+ git init -b main
+ git add directory local
+ git commit -m "commit Name"
+ git remote add origin remote repository URL       -repo git-
+ git remote -v
+ git push origin master
